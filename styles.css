@@ -1,0 +1,54 @@
+/* Basic reset to remove padding, margins, and box-sizing across all HTML elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Modern and simple font */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Soft background color */
+    color: #333; /* Soft text color for readability */
+    padding: 20px; /* Padding around the content */
+}
+
+.container {
+    text-align: center; /* Center text within the container */
+    width: 100%;
+    max-width: 600px; /* Maximum width of the container */
+    padding: 40px; /* Padding inside the container */
+    background-color: #ffffff; /* White background for the content area */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+}
+
+input, textarea {
+    width: 100%; /* Full width of the container */
+    padding: 10px; /* Padding for input and textarea */
+    margin-top: 8px; /* Margin on top for spacing */
+    border: 1px solid #ccc; /* Subtle border */
+    border-radius: 5px; /* Rounded corners for inputs and textarea */
+}
+
+button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside the button */
+    background-color: #007BFF; /* Blue background for the button */
+    color: white; /* White text inside the button */
+    border: none; /* No border for a cleaner look */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 20px; /* Margin on top for spacing */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover for interaction feedback */
+}
+
+h1 {
+    margin-bottom: 20px; /* Spacing below the heading */
+}
